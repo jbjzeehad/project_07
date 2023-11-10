@@ -11,12 +11,12 @@ const Header = () => {
 
     </>
     return (
-        <div className="navbar bg-base-100">
-            <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <div className="navbar border bg-white bg-transparent">
+            <div className="flex-1 ml-24 py-6 border">
+                <img src="Logo.png" />
             </div>
-            <div className="flex-none">
-                <ul className="menu menu-horizontal px-1">
+            <div className="flex-none border mr-32">
+                <ul className="flex gap-10 px-1">
                     {links}
                 </ul>
             </div>

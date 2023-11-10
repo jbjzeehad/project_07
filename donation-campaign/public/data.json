@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/7y8GfKW/Clothing.png",
+    "title": "Used clothing drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_btn_bg_color": "#79C23F33",
+    "description": "This is a charitable initiative where individuals and organizations collect gently worn clothing items to aid those in need. Donors contribute shirts, pants, jackets, and more to support individuals facing financial hardship or homelessness. These drives aim to reduce waste, encourage recycling, and provide essential garments to vulnerable communities. Typically organized seasonally by local charities, schools, or businesses, they foster a sense of community and compassion while addressing the practical clothing needs of disadvantaged individuals. Through the simple act of donating, participants help make a positive impact by redistributing resources and promoting sustainability.",
+    "price": "$99.99"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/sjZ9jc3/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#FF444A",
+    "card_bg_color": "#FF444A26",
+    "text_btn_bg_color": "#FF444A33",
+    "description": "This education donation program is a transformative initiative committed to providing quality learning opportunities for underserved students. By channeling donations, this program empowers students with access to essential resources, scholarships, and educational support. It champions equitable education, bridging the opportunity gap and enabling brighter futures. Donors contribute to this program to advance educational equity, empowering students to achieve their full potential and break down barriers. It facilitates academic excellence, fosters a love for learning, and cultivates the leaders and innovators of tomorrow. Every donation is an investment in a brighter, more inclusive, and knowledge-driven society.",
+    "price": "$129.99"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/drXm7Lc/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052FF",
+    "card_bg_color": "#0052FF26",
+    "text_btn_bg_color": "#0052FF33",
+    "description": "This program is a vital initiative dedicated to ensuring that children around the world have access to safe and clean drinking water. This program focuses on funding water purification, sanitation, and hygiene projects to protect children from waterborne diseases and improve their overall health. Donors to this program play a crucial role in providing a basic necessity, empowering young lives, and preventing illness. By contributing, individuals support a brighter and healthier future for children, promoting their well-being, and helping them thrive without the burden of water-related health issues. It's a compassionate effort to safeguard the health and future of our youngest generation.",
+    "price": "$49.99"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/6RRQvzF/Food.png",
+    "title": "Food Banks",
+    "category": "Food",
+    "category_bg_color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_btn_bg_color": "#F8714733",
+    "description": "This program is a lifeline for individuals and families facing food insecurity. These programs collect and distribute essential food items to those in need, ensuring that no one goes hungry. Donors contribute non-perishable food, fresh produce, and other essentials to support their mission. Food banks play a pivotal role in alleviating hunger and poverty, particularly during challenging times or emergencies. Through these programs, communities come together to provide nourishment and a sense of security for the most vulnerable. Donors make a tangible difference in the fight against hunger and help build stronger, more resilient communities where everyone has access to nutritious meals.",
+    "price": "$79.99"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/7y8GfKW/Clothing.png",
+    "title": "Seasonal clothing",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_btn_bg_color": "#79C23F33",
+    "description": "A seasonal clothing donation program is a charitable initiative that focuses on collecting and distributing clothing items appropriate for specific times of the year. These programs aim to provide individuals and families in need with seasonally relevant attire, such as warm coats in winter or lightweight clothing in summer. Donors contribute gently used or new clothing, helping those facing economic challenges access suitable garments to stay comfortable and safe in different weather conditions. By addressing the changing clothing needs of vulnerable populations, these programs contribute to their well-being and ensure that people have the right clothing for each season, promoting dignity and comfort.",
+    "price": "$59.99"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/6RRQvzF/Food.png",
+    "title": "School meal programs",
+    "category": "Food",
+    "category_bg_color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_btn_bg_color": "#F8714733",
+    "description": "This food donation initiative is a crucial effort to ensure that every child has access to nutritious meals during their school day. This program provides free or subsidized meals to students, particularly those from low-income backgrounds. Donors support this program by contributing funds, food items, or volunteering to help prepare and distribute meals. By doing so, they help alleviate hunger and enhance students' ability to concentrate and learn. School meal programs not only nourish young minds but also promote educational equity by ensuring that hunger doesn't hinder a child's potential. It's a compassionate and practical way to invest in the future of our youth.",
+    "price": "$39.99"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/drXm7Lc/Health.png",
+    "title": "Medical Supplies",
+    "category": "Health",
+    "category_bg_color": "#0052FF",
+    "card_bg_color": "#0052FF26",
+    "text_btn_bg_color": "#0052FF33",
+    "description": "The health donation program is a vital initiative dedicated to improving healthcare access for vulnerable communities. This program collects and distributes essential medical supplies, such as bandages, syringes, and personal protective equipment, to underserved clinics, hospitals, and disaster-stricken areas. By donating medical supplies, individuals and organizations support better healthcare delivery, particularly in resource-limited regions. This initiative plays a crucial role in saving lives, enhancing healthcare quality, and promoting overall public health. It's a compassionate effort to ensure that everyone, regardless of their circumstances, can access the medical resources they need for a healthier and safer future.",
+    "price": "$89.99"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/sjZ9jc3/Education.png",
+    "title": "Vocational Training",
+    "category": "Education",
+    "category_bg_color": "#FF444A",
+    "card_bg_color": "#FF444A26",
+    "text_btn_bg_color": "#FF444A33",
+    "description": "The education donation program is a transformative initiative that empowers individuals with practical skills and job-specific knowledge. This program provides access to vocational training and career development opportunities for people seeking to enhance their employability. Donors contribute to this program, enabling individuals to learn trades, gain certifications, and secure stable employment. It plays a vital role in reducing unemployment and promoting economic independence. By supporting vocational training, donors help bridge the skills gap, uplift communities, and empower individuals to build successful careers. It's a pathway to self-sufficiency and a brighter future for those striving to improve their lives.",
+    "price": "$109.99"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/6RRQvzF/Food.png",
+    "title": "Better food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_btn_bg_color": "#F8714733",
+    "description": "The food donation program is a compassionate endeavor that strives to combat hunger and improve nutrition for individuals and families in need. This initiative collects and distributes nutritious food items, including fresh produce, to underserved communities. Donors contribute to this program to provide balanced meals, reduce food insecurity, and promote healthier eating habits. By supporting, we address the essential need for nourishment while advocating for food equity and reducing food waste. This program empowers communities to access better, more sustainable food options, fostering well-being and ensuring that no one goes hungry.",
+    "price": "$44.99"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/7y8GfKW/Clothing.png",
+    "title": "School Uniforms",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_btn_bg_color": "#79C23F33",
+    "description": "The clothing donation program is a noble initiative aimed at providing students from underserved communities with access to essential school attire. This program collects gently used or new school uniforms and related clothing items, ensuring that children have appropriate attire for their educational journey. By offering uniforms, it helps reduce financial burdens on families, promotes a sense of equality among students, and fosters a positive learning environment. Donors contribute to the program by providing uniforms that are in good condition, allowing children to focus on their studies without the worry of clothing expenses. It's a heartwarming effort to support education and equal opportunities for all.",
+    "price": "$69.99"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/sjZ9jc3/Education.png",
+    "title": "Financial Aid",
+    "category": "Education",
+    "category_bg_color": "#FF444A",
+    "card_bg_color": "#FF444A26",
+    "text_btn_bg_color": "#FF444A33",
+    "description": "This program is a transformative initiative that opens doors to higher education for aspiring students. It offers scholarships, grants, and tuition assistance to individuals who may not have the financial means to pursue their academic dreams. Donors to this program provide the gift of education, empowering students to access quality learning opportunities, achieve their goals, and improve their future prospects. By easing the financial burden of tuition and related expenses, this program supports educational equity and enables talented individuals to reach their full potential. It's an investment in knowledge, talent, and a brighter, more inclusive future for all.",
+    "price": "$149.99"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/drXm7Lc/Health.png",
+    "title": "Health education",
+    "category": "Health",
+    "category_bg_color": "#0052FF",
+    "card_bg_color": "#0052FF26",
+    "text_btn_bg_color": "#0052FF33",
+    "description": "This program is a vital initiative dedicated to raising awareness and improving public health through education. It supports the development and dissemination of health-related educational materials, workshops, and outreach efforts. This program empowers individuals and communities with knowledge about healthy lifestyles, disease prevention, and healthcare resources. Donors contribute to this program to promote informed decision-making, disease prevention, and better access to healthcare. By supporting health education, donors play a crucial role in enhancing the overall well-being of communities and fostering a culture of wellness and prevention. It's a critical step towards a healthier, more informed society.",
+    "price": "$179.99"
+  }
+]

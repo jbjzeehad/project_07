@@ -2,7 +2,7 @@
 
 const Donation = () => {
     return (
-        <div>
+        <div className="bg-white">
             <h2>Donation Page</h2>
         </div>
     );

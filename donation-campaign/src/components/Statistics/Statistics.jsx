@@ -2,7 +2,7 @@
 
 const Statistics = () => {
     return (
-        <div>
+        <div className="bg-white">
             <h3>This is Statistis</h3>
         </div>
     );
