@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div>
+        <div className="border">
             <h2>Banner section</h2>
         </div>
     );

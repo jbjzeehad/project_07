@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "daisyui": "^3.9.4"
+  },
+  "dependencies": {
+    "react-toastify": "^9.1.3"
   }
 }

@@ -15,19 +15,11 @@ const Category = () => {
 
     return (
         <div>
-            <h1>Donation Category Cards: {donationCard.length}</h1>
-            <div className="grid grid-cols-4 mx-24">
+            <div className="border border-red-500 grid grid-cols-4 p-16 gap-4">
                 {
                     donationCard.map(card => <Card key={card.id} card={card}></Card>)
                 }
             </div>
-            {/* <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                </div>
-            </div> */}
         </div>
     );
 };
