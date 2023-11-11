@@ -35,14 +35,24 @@ const Donation = () => {
 
 
     return (
-        <div >
-            <h2 className="text-2xl">What i selected for donation : {cardSelected.length} </h2>
-            <div>
+        <div className="bg-white">
+            <div className="grid grid-cols-2 px-16 py-12 gap-4" >
                 {
-                    cardSelected.map(card => <li key={card.id}>
-                        <span>{card.title}: {card.category}</span>
+                    cardSelected.map(card =>
+                        <div key={card.id} className="grid grid-cols-2 rounded-md" style={{ backgroundColor: card.card_bg_color }}>
+                            <div >
+                                <img className="rounded-l-md" src={card.image} />
+                            </div>
+                            <div className="p-3">
+                                <button className="font-medium text-xs px-2 py-0.5 rounded-md" style={{ backgroundColor: card.text_btn_bg_color, color: card.category_bg_color }} >{card.category}</button>
+                                <p className="font-semibold text-lg py-0.5 text-[#0B0B0B]" >{card.title}</p>
+                                <p className="font-semibold  text-base pb-1" style={{ color: card.category_bg_color }} >{card.price}</p>
+                                <button className="text-white font-semibold text-sm px-2 py-1 rounded-md" style={{ backgroundColor: card.category_bg_color }}>View Details</button>
+                            </div>
 
-                    </li>)
+                            {/* <span>{card.title}: {card.category}</span> */}
+
+                        </div>)
                 }
             </div>
         </div>

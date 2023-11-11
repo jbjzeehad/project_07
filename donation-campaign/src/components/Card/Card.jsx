@@ -6,7 +6,6 @@ const Card = ({ card }) => {
 
     const handleApplyCard = () => {
         donationList(id);
-
     }
 
 

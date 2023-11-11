@@ -5,7 +5,6 @@ const storedDonationList = () => {
     }
     return [];
 }
-
 const donationList = id => {
     const listItem = storedDonationList();
     const cardExist = listItem.find(cardId => cardId === id);
@@ -13,8 +12,5 @@ const donationList = id => {
         listItem.push(id);
         localStorage.setItem('donation-card', JSON.stringify(listItem));
     }
-
-
 }
-
 export { storedDonationList, donationList }
