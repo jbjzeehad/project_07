@@ -15,7 +15,7 @@ const Category = () => {
 
     return (
         <div>
-            <div className="border border-red-500 grid grid-cols-4 p-16 gap-4">
+            <div className=" grid grid-cols-4 p-16 gap-4">
                 {
                     donationCard.map(card => <Card key={card.id} card={card}></Card>)
                 }

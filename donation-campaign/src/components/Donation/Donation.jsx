@@ -5,15 +5,15 @@ import { storedDonationList } from "../../utility/localStorage";
 
 const Donation = () => {
     const listedCard = useLoaderData();
-
     const [cardSelected, setCardSelected] = useState([]);
+    const [cardLength, setCardLength] = useState(4);
 
 
 
     useEffect(() => {
         const storedCard = storedDonationList();
+
         if (listedCard.length > 0) {
-            // const selectedCard = listedCard.filter(card => storedCard.includes(card.id));
 
             const appliedCard = [];
             for (const id of storedCard) {
@@ -22,11 +22,7 @@ const Donation = () => {
                     appliedCard.push(card);
                 }
             }
-
             setCardSelected(appliedCard);
-
-
-            // console.log(listedCard, storedCard, appliedCard);
 
         }
 
@@ -38,7 +34,7 @@ const Donation = () => {
         <div className="bg-white">
             <div className="grid grid-cols-2 px-16 py-12 gap-4" >
                 {
-                    cardSelected.map(card =>
+                    cardSelected.slice(0, cardLength).map(card =>
                         <div key={card.id} className="grid grid-cols-2 rounded-md" style={{ backgroundColor: card.card_bg_color }}>
                             <div >
                                 <img className="rounded-l-md" src={card.image} />
@@ -47,13 +43,16 @@ const Donation = () => {
                                 <button className="font-medium text-xs px-2 py-0.5 rounded-md" style={{ backgroundColor: card.text_btn_bg_color, color: card.category_bg_color }} >{card.category}</button>
                                 <p className="font-semibold text-lg py-0.5 text-[#0B0B0B]" >{card.title}</p>
                                 <p className="font-semibold  text-base pb-1" style={{ color: card.category_bg_color }} >{card.price}</p>
-                                <button className="text-white font-semibold text-sm px-2 py-1 rounded-md" style={{ backgroundColor: card.category_bg_color }}>View Details</button>
+                                <Link to={`/donation/${card.id}`}>
+                                    <button className="text-white font-semibold text-sm px-2 py-1 rounded-md" style={{ backgroundColor: card.category_bg_color }}>View Details</button>
+                                </Link>
                             </div>
-
-                            {/* <span>{card.title}: {card.category}</span> */}
 
                         </div>)
                 }
+            </div>
+            <div className='text-center pb-16'>
+                <button onClick={() => setCardLength(listedCard.length)} className={`${cardLength === listedCard.length ? 'hidden' : ''} ${'text-white font-semibold text-base px-5 py-2 rounded-lg bg-[#009444]'}`}>See All</button>
             </div>
         </div>
     );

@@ -2,8 +2,8 @@
 
 const Banner = () => {
     return (
-        <div className="border">
-            <h2>Banner section</h2>
+        <div className="">
+            <img src="https://i.ibb.co/9HrbJK8/background.png" alt="" />
         </div>
     );
 };
