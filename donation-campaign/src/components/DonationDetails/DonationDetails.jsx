@@ -2,9 +2,7 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import { donationList } from "../../utility/localStorage";
-
 
 const DonationDetails = () => {
     const cards = useLoaderData();
@@ -16,30 +14,19 @@ const DonationDetails = () => {
     const donationDone = () => {
         donationList(idInt);
         toast('Donation Done');
-
     }
-    const handleApplyCard = () => {
-
-    }
-
-
     return (
-        <div>
-            <div>
-
-                <h2>Job Details of : {id} </h2>
-                <div>
-
-                    <button onClick={() => { donationDone(), handleApplyCard() }}>Donate { }</button>
+        <div className='bg-white px-20 py-6'>
+            <div className=" w-full relative">
+                <img src={card.image[2]} />
+                <div className="absolute bottom-0 p-7 w-full bg-[#00000080]">
+                    <button onClick={donationDone} className="text-white font-semibold text-sm px-3 py-2 rounded-md" style={{ backgroundColor: card.category_bg_color }}>Donate {card.price}</button>
                 </div>
-
             </div>
-            <div>
-                <img src={card.image} alt="" />
-                <p>Title:{card.title}</p>
-                <p>Details:{card.description}</p>
+            <div className='py-5'>
+                <p className='font-bold text-4xl text-[#0B0B0B]'>{card.title}</p>
+                <p className='text-sm font-normal pt-3 text-zinc-600'>{card.description}</p>
             </div>
-
             <ToastContainer />
         </div>
     );

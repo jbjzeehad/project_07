@@ -28,18 +28,16 @@ const Donation = () => {
 
     }, []);
 
-
-
     return (
         <div className="bg-white">
             <div className="grid grid-cols-2 px-16 py-12 gap-4" >
                 {
                     cardSelected.slice(0, cardLength).map(card =>
-                        <div key={card.id} className="grid grid-cols-2 rounded-md" style={{ backgroundColor: card.card_bg_color }}>
+                        <div key={card.id} className=" flex rounded-md" style={{ backgroundColor: card.card_bg_color }}>
                             <div >
-                                <img className="rounded-l-md" src={card.image} />
+                                <img className=" rounded-l-md w-40 h-36" src={card.image[1]} />
                             </div>
-                            <div className="p-3">
+                            <div className="py-3 px-4">
                                 <button className="font-medium text-xs px-2 py-0.5 rounded-md" style={{ backgroundColor: card.text_btn_bg_color, color: card.category_bg_color }} >{card.category}</button>
                                 <p className="font-semibold text-lg py-0.5 text-[#0B0B0B]" >{card.title}</p>
                                 <p className="font-semibold  text-base pb-1" style={{ color: card.category_bg_color }} >{card.price}</p>
