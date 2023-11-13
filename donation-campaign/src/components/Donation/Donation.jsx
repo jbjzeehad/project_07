@@ -50,7 +50,7 @@ const Donation = () => {
                 }
             </div>
             <div className='text-center pb-16'>
-                <button onClick={() => setCardLength(listedCard.length)} className={`${cardLength === listedCard.length ? 'hidden' : ''} ${'text-white font-semibold text-base px-5 py-2 rounded-lg bg-[#009444]'}`}>See All</button>
+                <button onClick={() => setCardLength(listedCard.length)} className={`${cardLength === listedCard.length ? 'hidden' : ''} ${cardSelected.length < 5 ? 'hidden' : ''} ${'text-white font-semibold text-base px-5 py-2 rounded-lg bg-[#009444]'}`}>See All</button>
             </div>
         </div>
     );
